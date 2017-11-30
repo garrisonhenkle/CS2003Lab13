@@ -7,6 +7,7 @@ import javax.swing.JPanel;
 
 public class ColorWindow extends ColorFrame {
 
+	// holds the panel for the frame
 	protected JPanel panel;
 
 	public ColorWindow() {
@@ -39,5 +40,5 @@ public class ColorWindow extends ColorFrame {
 		// add panel to frame
 		add(panel);
 
-	}
+	} // end Constructor ColorWindow()
 }
